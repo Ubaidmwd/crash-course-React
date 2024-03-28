@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-  const [name, setName] = useState("initial");
+  const [name, setName] = useState("");
   return (
     <div>
       <form>
